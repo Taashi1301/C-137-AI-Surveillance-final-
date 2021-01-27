@@ -1,0 +1,53 @@
+body{
+    background-image: url("modern-cctv-camera-on-wall-260nw-784897093.webp");
+    background-size:cover;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.heading{
+    width: 80%;
+    background-image: linear-gradient(to right bottom, #a001f0, #7525d5, #4f2cb8, #2d2b98, #112677, #352e73, #47386f, #54436c, #826887);
+    margin:0;
+    color: white;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:2px solid white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#start{
+    background-color: greenyellow;
+    color: blue;
+    font-size: 20px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.results{
+    background-color: purple;
+    color: whitesmoke;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+canvas{
+    border: 4px solid greenyellow;
+    box-shadow: 10px 10px 10px purple;
+    border-radius: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #a001f0, #7525d5, #4f2cb8, #2d2b98, #112677, #352e73, #47386f, #54436c, #826887);
+    text-align: center;
+    font-size: 20px;
+    float: center;
+    color: whitesmoke;
+    border:2px solid whitesmoke;
+    line-height: 1.5;
+}
